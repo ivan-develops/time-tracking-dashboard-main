@@ -3,27 +3,100 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/icon-social.svg">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="main.js"></script>
   
-  <title>Frontend Mentor | Time tracking dashboard</title>
+  <title>Time tracking dashboard</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
 </head>
 <body>
+  <main class="container">
+    <div class="header">
+      <div class="user">
+        <img src="images/image-jeremy.png" alt="Jeremy photo profile" class="photo-user">
+        <div class="info-user">
+          <h1 class="report-for">Report for</h1>
+          <p class="name">Jeremy Robson</p>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#">Daily</a>
+        <a href="#">Weekly</a>
+        <a href="#">Monthly</a>
+      </nav>
+    </div>
 
-  Report for
-  Jeremy Robson
+    <div class="item">
+      <div class="item__header"></div>
+      <div class="item__info">
+        <h2 class="item__title">Work</h2>
+        <img class="item__ellipsis" src="images/icon-ellipsis.svg" alt="option button">
+        <p class="item__hours">32hrs</p>
+        <p class="item__lastTime">Last Week - 36hrs</p>
+      </div>
+    </div>
 
-  Daily
-  Weekly
-  Monthly
+    <div class="item">
+      <div class="item__header"></div>
+      <div class="item__info">
+        <h2 class="item__title">play</h2>
+        <img class="item__ellipsis" src="images/icon-ellipsis.svg" alt="option button">
+        <p class="item__hours">10hrs</p>
+        <p class="item__lastTime">Last Week - 8hrs</p>
+      </div>
+    </div>
+    
+    <div class="item">
+      <div class="item__header"></div>
+      <div class="item__info">
+        <h2 class="item__title">Study</h2>
+        <img class="item__ellipsis" src="images/icon-ellipsis.svg" alt="option button">
+        <p class="item__hours">4hrs</p>
+        <p class="item__lastTime">Last Week - 7hrs</p>
+      </div>
+    </div> 
+    
+    <div class="item">
+      <div class="item__header"></div>
+      <div class="item__info">
+        <h2 class="item__title">Excercise</h2>
+        <img class="item__ellipsis" src="images/icon-ellipsis.svg" alt="option button">
+        <p class="item__hours">4hrs</p>
+        <p class="item__lastTime">Last Week - 5hrs</p>
+      </div>
+    </div> 
+    
+    <div class="item">
+      <div class="item__header"></div>
+      <div class="item__info">
+        <h2 class="item__title">Social</h2>
+        <img class="item__ellipsis" src="images/icon-ellipsis.svg" alt="option button">
+        <p class="item__hours">5hrs</p>
+        <p class="item__lastTime">Last Week - 10hrs</p>
+      </div>
+    </div>
+    
+    <div class="item">
+      <div class="item__header"></div>
+      <div class="item__info">
+        <h2 class="item__title">Self Care</h2>
+        <img class="item__ellipsis" src="images/icon-ellipsis.svg" alt="option button">
+        <p class="item__hours">2hrs</p>
+        <p class="item__lastTime">Last Week - 2hrs</p>
+      </div>
+    </div> 
 
-  Work
+  </main>
+
+  
+
+  
+  
+  
+
+  
   5hrs <!-- daily -->
   Previous - 7hrs <!-- daily -->
   32hrs <!-- weekly -->
@@ -71,10 +144,5 @@
   7hrs <!-- monthly -->
   Previous - 11hrs <!-- monthly -->
 
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
 </body>
 </html>
